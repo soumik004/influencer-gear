@@ -75,8 +75,6 @@ img{
     width: 1139.25px;
     height: 90px;
     margin-left: 80px;
-    
-
 }
 
 .logo-img{
@@ -84,15 +82,68 @@ img{
    justify-content: center;
    align-items: center;
    margin-left: 100px;
-  
-
 }
 .logo-img img{
     width: 55.05px;
     height: 31.06px;
 }
-
 li{
     list-style: none;
     
+}
+/*-=================style for populer collection  ===================== */
+.container{
+    width: 977px;
+    height: 1662px;
+    margin-left: 150px;
+    border-radius: 7px;
+    display: grid;
+    grid-template-columns: repeat(3, 31fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 2px;
+}
+.collection{
+    width: 329px;
+    height: 476px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px rgba(177, 175, 175, 0.865);
+}
+.collection-banner img{
+    width: 300px;
+    height: 256px;
+    margin-left: 14px;
+    margin-top: 14px;
+}
+.collection-info{
+    margin-left: 10px;
+}
+.collection-title{
+    font-weight: 500;
+    font-size: 28px;
+    margin-bottom: 2px;
+}
+
+.fa-solid{
+    
+}
+.fa-solid.color {
+    width: 16px;
+    height: 16px;
+   font-size: 9px;
+      color: gold;
+    }
+.fa-solid.empty{
+    font-size: 9px;
+
+}
+.collection-info p{
+    font-size: 14px;
+    color: #787885;
+}
+.collection-detales{
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.018em;
+    width: 196px;
+    height: 61px;
 }
